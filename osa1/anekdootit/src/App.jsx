@@ -4,17 +4,7 @@ const Header = ({ text }) => <h1>{text}</h1>
 
 const Button = ({ handleClick, text }) => <button onClick={handleClick}>{text}</button>
 
-const Votes = ({ votes }) => {
-  if (votes === 1) {
-    return (
-      <p>has {votes} vote</p>
-    )
-  }
-
-  return (
-      <p>has {votes} votes</p>
-    )
-}
+const Votes = ({ votes }) => <p>has {votes} votes</p>
 
 const Anecdote = ({ text }) => <p>{text}</p>
 

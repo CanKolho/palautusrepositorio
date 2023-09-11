@@ -37,7 +37,7 @@ const App = () => {
   return (
     <>
       <Finder value={value} handleSearch={handleSearch}/>
-      <Countries countries={filteredCountries} />
+      <Countries countries={filteredCountries} setFiltered={setFiltered} />
     </>
   )
 }

@@ -1,16 +1,18 @@
-# esimerkkipalautusrepositorio
-
-Eräs varsin toimiva hakemistorakenne palautusrepositoriolle on tässä esimerkkirepositoriossa käytetty tapa, jossa kutakin osaa kohti on oma hakemistonsa, joka vielä jakautuu tehtäväsarjat (kuten osan 1 unicafe) sisältäviin hakemistoihin:
+# Tehtävien palautus
+Tämä repositorio sisältää osat 0, 1 ja 2.
+Osien jokainen tehtävä on tehty.
 
 ```
 osa0
+  4-uusiMuistiinpano.md
+  5-SinglePageApp.md
+  6-uusiMuistiinpano.md
 osa1
+  anekdootit  
   kurssitiedot
   unicafe
-  anekdootit
 osa2
-  puhelinluettelo
+  kurssitiedot2
   maiden_tiedot
+  puhelinluettelo
 ```
-
-Hakemistoon kannattaa sijoittaa koko tehtäväsarjan react-projekti lukuunottamatta riippuvuuksia sisältävää hakemistoa <i>node\_modules</i>

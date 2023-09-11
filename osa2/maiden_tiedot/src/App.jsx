@@ -20,7 +20,6 @@ const App = () => {
       })
   }, [])
 
-
   const handleSearch = (event) => {
     console.log('handling search')
     const newValue = event.target.value

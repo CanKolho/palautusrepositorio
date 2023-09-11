@@ -1,3 +1,5 @@
+import WeatherData from "./WeatherData"
+
 const Country = ({ country }) => {  
   return (
     <>
@@ -11,6 +13,7 @@ const Country = ({ country }) => {
         ))}
       </ul>
       <img src={country.flags.png} alt={country.flags.alt}/>
+      <WeatherData country={country}/>
     </>
   )
 }
